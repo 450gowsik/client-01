@@ -1,0 +1,230 @@
+/**
+ * CSS Variables - Soundariya Health Care & Beauty Parlour
+ * Premium Design System Variables
+ */
+
+:root {
+  /* ============================================================
+   * Primary Brand Colors - Luxury Pink & Gold Palette
+   * ============================================================ */
+  --primary-pink: #FFB6C1;
+  --primary-pink-light: #FFC0CB;
+  --primary-pink-lighter: #FFE4E1;
+  --primary-pink-dark: #FF69B4;
+  --primary-pink-darker: #FF1493;
+  
+  --secondary-gold: #D4AF37;
+  --secondary-gold-light: #FFD700;
+  --secondary-gold-dark: #B8860B;
+  
+  --accent-rose: #FFC0CB;
+  --accent-coral: #FF7F7F;
+  --accent-lavender: #E6E6FA;
+  
+  /* ============================================================
+   * Neutral Colors
+   * ============================================================ */
+  --white: #FFFFFF;
+  --off-white: #FAFAFA;
+  --light-gray: #F5F5F5;
+  --gray-100: #F8F9FA;
+  --gray-200: #E9ECEF;
+  --gray-300: #DEE2E6;
+  --gray-400: #CED4DA;
+  --gray-500: #ADB5BD;
+  --gray-600: #6C757D;
+  --gray-700: #495057;
+  --gray-800: #343A40;
+  --gray-900: #212529;
+  --black: #000000;
+  
+  /* ============================================================
+   * Semantic Colors
+   * ============================================================ */
+  --success: #28A745;
+  --success-light: #D4EDDA;
+  --danger: #DC3545;
+  --danger-light: #F8D7DA;
+  --warning: #FFC107;
+  --warning-light: #FFF3CD;
+  --info: #17A2B8;
+  --info-light: #D1ECF1;
+  
+  /* ============================================================
+   * Gradient Colors
+   * ============================================================ */
+  --gradient-primary: linear-gradient(135deg, var(--primary-pink) 0%, var(--primary-pink-light) 100%);
+  --gradient-gold: linear-gradient(135deg, var(--secondary-gold) 0%, var(--secondary-gold-light) 100%);
+  --gradient-rose: linear-gradient(135deg, #FFE4E1 0%, #FFC0CB 100%);
+  --gradient-sunset: linear-gradient(135deg, #FF9A9E 0%, #FAD0C4 100%);
+  --gradient-luxury: linear-gradient(135deg, var(--primary-pink) 0%, var(--secondary-gold-light) 100%);
+  --gradient-overlay: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+  
+  /* ============================================================
+   * Typography
+   * ============================================================ */
+  --font-primary: 'Playfair Display', 'Georgia', serif;
+  --font-secondary: 'Poppins', 'Helvetica Neue', sans-serif;
+  --font-body: 'Inter', 'Arial', sans-serif;
+  
+  --font-size-xs: 0.75rem;      /* 12px */
+  --font-size-sm: 0.875rem;     /* 14px */
+  --font-size-base: 1rem;       /* 16px */
+  --font-size-lg: 1.125rem;     /* 18px */
+  --font-size-xl: 1.25rem;      /* 20px */
+  --font-size-2xl: 1.5rem;      /* 24px */
+  --font-size-3xl: 1.875rem;    /* 30px */
+  --font-size-4xl: 2.25rem;     /* 36px */
+  --font-size-5xl: 3rem;        /* 48px */
+  --font-size-6xl: 3.75rem;     /* 60px */
+  --font-size-7xl: 4.5rem;      /* 72px */
+  
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+  
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+  --line-height-loose: 2;
+  
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+  
+  /* ============================================================
+   * Spacing Scale
+   * ============================================================ */
+  --space-0: 0;
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+  --space-32: 8rem;     /* 128px */
+  
+  /* ============================================================
+   * Border Radius
+   * ============================================================ */
+  --radius-none: 0;
+  --radius-sm: 0.25rem;
+  --radius-base: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius-3xl: 3rem;
+  --radius-full: 9999px;
+  
+  /* ============================================================
+   * Shadows - Premium Depth
+   * ============================================================ */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-2xl: 0 35px 60px -15px rgba(0, 0, 0, 0.3);
+  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  
+  /* Premium Pink Shadows */
+  --shadow-pink: 0 10px 30px rgba(255, 182, 193, 0.3);
+  --shadow-pink-lg: 0 20px 40px rgba(255, 182, 193, 0.4);
+  --shadow-gold: 0 10px 30px rgba(212, 175, 55, 0.3);
+  
+  /* ============================================================
+   * Glassmorphism
+   * ============================================================ */
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-bg-dark: rgba(255, 255, 255, 0.5);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --glass-blur: blur(20px);
+  --glass-blur-lg: blur(30px);
+  
+  /* ============================================================
+   * Z-Index Layers
+   * ============================================================ */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+  
+  /* ============================================================
+   * Container & Layout
+   * ============================================================ */
+  --container-xs: 480px;
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-2xl: 1536px;
+  
+  --max-width: var(--container-xl);
+  --section-padding: var(--space-20);
+  --section-padding-mobile: var(--space-12);
+  
+  /* ============================================================
+   * Transitions & Animations
+   * ============================================================ */
+  --transition-fast: 150ms;
+  --transition-base: 300ms;
+  --transition-slow: 500ms;
+  --transition-slower: 700ms;
+  
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  /* ============================================================
+   * Component Specific
+   * ============================================================ */
+  --navbar-height: 80px;
+  --navbar-height-mobile: 70px;
+  --footer-height: 400px;
+  
+  --btn-padding-x: 2rem;
+  --btn-padding-y: 0.75rem;
+  --btn-padding-lg-x: 2.5rem;
+  --btn-padding-lg-y: 1rem;
+  --btn-padding-sm-x: 1.5rem;
+  --btn-padding-sm-y: 0.5rem;
+  
+  --input-padding-x: 1rem;
+  --input-padding-y: 0.75rem;
+  --input-border: 2px solid var(--gray-300);
+  --input-border-focus: 2px solid var(--primary-pink);
+  
+  --card-padding: var(--space-8);
+  --card-bg: var(--white);
+  --card-border: var(--gray-200);
+}
+
+/* ============================================================
+ * Dark Mode Variables (Optional Future Enhancement)
+ * ============================================================ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --white: #1A1A1A;
+    --off-white: #242424;
+    --black: #FFFFFF;
+    --gray-100: #2D2D2D;
+    --gray-900: #F8F9FA;
+  }
+}
