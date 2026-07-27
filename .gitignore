@@ -109,3 +109,8 @@ Desktop.ini
 *.zip
 *.tar.gz
 *.rar
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
